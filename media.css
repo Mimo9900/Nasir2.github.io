@@ -1,0 +1,67 @@
+/* Original styles for .flex2 and .header remain unchanged */
+
+/* ... your existing CSS code ... */
+
+/* Media query for small screens */
+@media screen and (max-width: 25em) {
+  .flex2 {
+    width: auto; /* Adjust to make it full width */
+    position: relative;
+   
+  }
+
+  .header {
+    height: 4em; /* Smaller header height for small screens */
+    border: 1px solid #343a40; /* Adjust border styles */
+    position: fixed;
+    top: 0;
+    left: 0;
+  }
+
+  .flex {
+    display: block; /* Change to block display for stacking content */
+    width: 100%; /* Make it full width */
+    padding-top: 1em; /* Adjust padding */
+    height: 90em;
+  }
+
+  .left {
+    width: 100%; /* Make it full width */
+    height: auto; /* Adjust height */
+    padding: 1em; /* Adjust padding */
+  }
+
+  .small-containers {
+    width: 100%; /* Make it full width */
+    height: auto; /* Adjust height */
+    padding: 1em; /* Adjust padding */
+    font-size: 1em; /* Adjust font size */
+    margin-bottom: 3em;
+  }
+
+  .paragrph {
+    font-size: 1.3em; /* Adjust font size */
+    text-align: center;
+  }
+
+  /* Adjust other styles as needed for better responsiveness */
+
+  .right {
+    width: 100%; /* Make it full width */
+  }
+
+  .right-box {
+    height: auto; /* Adjust height */
+    padding: 1em; /* Adjust padding */
+    height: 8em;
+  }
+  .center-top{
+    display: flex;
+    align-items: center;
+    margin-top: 2em;
+  }
+
+  /* Adjust other styles as needed for better responsiveness */
+}
+
+
